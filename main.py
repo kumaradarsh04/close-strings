@@ -5,7 +5,7 @@ def main() -> None:
   print("Enter Space or Tab to Exit\n")
   inp = input("Enter String: ")
 
-  suggestor = 
+  suggestor = Suggestion(keywords, True, False)
 
   while inp not in [' ', '\t']:
     res = suggestor.suggestions(inp)
